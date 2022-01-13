@@ -43,6 +43,8 @@
 		</td>
 		<td>
 		<xsl:value-of select="Emp-designation"></xsl:value-of>
+		</td>
+		<td>
 		   <xsl:choose>
 		    	<xsl:when test="Emp-age &gt; 49">Associate Project Manager</xsl:when>
 		    	<xsl:when test="Emp-age &gt; 39">Team Leader</xsl:when>
