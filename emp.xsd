@@ -18,12 +18,19 @@
 <xs:element name="Emp-designation" type="xs:string"></xs:element>
 
 </xs:sequence>
-<xs:attribute name="Emp-id" type="xs:ID" use="required"></xs:attribute>
+<xs:attribute name="Emp-id" type="xs:int" use="required"></xs:attribute>
 </xs:complexType>
 </xs:element>
 </xs:sequence>
 </xs:complexType>
 </xs:element>
+
+<xs:attribute name="Emp-id">
+    <xs:simpleType>
+        <xs:restriction base="xs:ID">
+    </xs:restriction>
+    </xs:simpleType>
+</xs:attribute>
 
 <xs:simpleType name="salary" >
  <xs:restriction base="xs:integer">

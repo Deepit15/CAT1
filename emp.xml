@@ -1,32 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="emp.xsl"?>
 <Company xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="emp.xsd">
-  <Employee>
+  <Employee Emp-id="1">
   	<!--<Emp-id></Emp-id>  -->
-    <Emp-name>Deepit Aggarwal</Emp-name>
+    <Emp-name>Munish Aggarwal</Emp-name>
     <Emp-age>50</Emp-age>
-    <Emp-salary>50000</Emp-salary>
-    <Emp-emailid>deepit1510@gmail.com</Emp-emailid>
-    <Emp-Phonenum>9315004813</Emp-Phonenum>
-    <Emp-designation>manager</Emp-designation>
+    <Emp-salary>200000</Emp-salary>
+    <Emp-emailid>munish10@gmail.com</Emp-emailid>
+    <Emp-Phonenum>9315008913</Emp-Phonenum>
+    <Emp-designation>CEO</Emp-designation>
   </Employee>
-  <Employee>
+  <Employee Emp-id="2">
     <!--<Emp-id></Emp-id>  -->
-    <Emp-name>Deepit Aggarwal</Emp-name>
+    <Emp-name>Naman Jain</Emp-name>
     <Emp-age>39</Emp-age>
-    <Emp-salary>50000</Emp-salary>
-    <Emp-emailid>deepit1510@gmail.com</Emp-emailid>
-    <Emp-Phonenum>9315004813</Emp-Phonenum>
-    <Emp-designation>manager</Emp-designation>
+    <Emp-salary>150000</Emp-salary>
+    <Emp-emailid>naman15@gmail.com</Emp-emailid>
+    <Emp-Phonenum>9315764813</Emp-Phonenum>
+    <Emp-designation>senior-manager</Emp-designation>
   </Employee>
-  <Employee>
-   <!--<Emp-id></Emp-id>  -->
-    <Emp-name>Deepit Aggarwal</Emp-name>
+  <Employee Emp-id="3">
+    <Emp-name>Lakshay Khurana</Emp-name>
     <Emp-age>20</Emp-age>
     <Emp-salary>50000</Emp-salary>
-    <Emp-emailid>deepit1510@gmail.com</Emp-emailid>
-    <Emp-Phonenum>9315004813</Emp-Phonenum>
+    <Emp-emailid>lakshayk@gmail.com</Emp-emailid>
+    <Emp-Phonenum>9346004813</Emp-Phonenum>
+    <Emp-designation>developer</Emp-designation>
+  </Employee>
+  <Employee Emp-id="4">
+    <Emp-name>Mayank Jain</Emp-name>
+    <Emp-age>20</Emp-age>
+    <Emp-salary>50000</Emp-salary>
+    <Emp-emailid>mayank@gmail.com</Emp-emailid>
+    <Emp-Phonenum>9315993813</Emp-Phonenum>
+    <Emp-designation>android-developer</Emp-designation>
+  </Employee>
+  <Employee Emp-id="5">
+    <Emp-name>Saurav Prasad</Emp-name>
+    <Emp-age>20</Emp-age>
+    <Emp-salary>100000</Emp-salary>
+    <Emp-emailid>ksauravp@gmail.com</Emp-emailid>
+    <Emp-Phonenum>936875613</Emp-Phonenum>
     <Emp-designation>manager</Emp-designation>
   </Employee>
-  
+  <Employee Emp-id="6">
+    <Emp-name>Subhajit Mishra</Emp-name>
+    <Emp-age>20</Emp-age>
+    <Emp-salary>50000</Emp-salary>
+    <Emp-emailid>subhajit@gmail.com</Emp-emailid>
+    <Emp-Phonenum>9315004896</Emp-Phonenum>
+    <Emp-designation>manager</Emp-designation>
+  </Employee>
 </Company>
