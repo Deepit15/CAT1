@@ -35,8 +35,8 @@
 		<xsl:for-each select="Company/Employee">
 		<!-- <xsl:sort select="Noofevents"></xsl:sort> -->
 		<tr>
-		<td>1
-		<!-- <xsl:value-of select="Noofevent"></xsl:value-of> -->
+		<td>
+		<xsl:value-of select="Emp-id"></xsl:value-of>
 		</td>
 		<td>
 		<xsl:value-of select="Emp-name"></xsl:value-of>
