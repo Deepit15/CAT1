@@ -4,6 +4,18 @@
 		<!-- TODO: Auto-generated template -->
 		<html>
 		<head>
+		<style>
+		table tbody tr:first-child {
+			background: #000;
+			color: #fff;
+		}
+		tr:nth-child(odd) {
+			background-color: #ddd;
+		}
+		table tbody tr {
+			text-align: center;
+		}
+		</style>
 		</head>
 		<body>
 		<xsl:apply-templates/>  
@@ -61,7 +73,7 @@
 		</body>
 		</html>
 	</xsl:template>
-	<xsl:template match="Event">
+	<xsl:template match="Company">
   	<p>
 	<h1 style="text-align:center">Employment Management System</h1>
 	 </p>
