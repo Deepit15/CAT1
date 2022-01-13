@@ -39,7 +39,10 @@
 		<xsl:for-each select="Company/Employee">
 		<tr>
 		<td>
-		<xsl:value-of select="Emp-id"></xsl:value-of>
+		<attribute >
+		<xsl:value-of select="generate-id(.)"/>
+		</attribute >
+		<!-- <xsl:value-of select="Emp-id"></xsl:value-of> -->
 		</td>
 		<td>
 		<xsl:value-of select="Emp-name"></xsl:value-of>
