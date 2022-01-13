@@ -25,12 +25,12 @@
 </xs:complexType>
 </xs:element>
 
-<xs:attribute name="Emp-id">
+<!-- <xs:attribute name="Emp-id">
     <xs:simpleType>
         <xs:restriction base="xs:ID">
     </xs:restriction>
     </xs:simpleType>
-</xs:attribute>
+</xs:attribute> -->
 
 <xs:simpleType name="salary" >
  <xs:restriction base="xs:integer">

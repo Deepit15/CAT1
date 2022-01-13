@@ -9,6 +9,10 @@
 			background: #000;
 			color: #fff;
 		}
+		<!-- th,td {
+		border: 1px solid black;
+		border-radius: 10px;
+		} -->
 		tr:nth-child(odd) {
 			background-color: #ddd;
 		}
@@ -33,7 +37,6 @@
 		
 		</tr>
 		<xsl:for-each select="Company/Employee">
-		<!-- <xsl:sort select="Noofevents"></xsl:sort> -->
 		<tr>
 		<td>
 		<xsl:value-of select="Emp-id"></xsl:value-of>
